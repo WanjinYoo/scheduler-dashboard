@@ -45,8 +45,7 @@ class Dashboard extends Component {
    };
    constructor(props) {
     super(props);
-
-    //this.selectPanel = this.selectPanel.bind(this);
+    this.selectPanel = this.selectPanel.bind(this);
   }
   componentDidMount() {
     Promise.all([
