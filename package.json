@@ -8,7 +8,8 @@
     "lodash": "^4.17.15",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-scripts": "3.0.1"
+    "react-scripts": "3.0.1",
+    "sass": "^1.30.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -32,9 +33,9 @@
     ]
   },
   "devDependencies": {
-    "node-sass": "^4.12.0"
+    "node-sass": "^4.14.1"
   },
-  "proxy": "http://localhost:8001",
+  "proxy": "https://wanjin-sheduler.herokuapp.com/",
   "jest": {
     "watchPathIgnorePatterns": [
       "<rootDir>/node_modules/"
